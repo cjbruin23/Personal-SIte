@@ -1,1 +1,0 @@
-The scallfolding was created with https://dev.to/riddhiagrawal001/create-react-app-without-create-react-app-2lgd
