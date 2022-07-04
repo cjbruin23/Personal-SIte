@@ -4,7 +4,13 @@ function App() {
 
   return (
     <div>
-      <h1 className="underline font-bold">Colins Website</h1>
+      <div id="header">
+
+      </div>
+      <div id="body">
+
+        <h1 className="underline font-bold">Colins Website</h1>
+      </div>
     </div>
   )
 }
