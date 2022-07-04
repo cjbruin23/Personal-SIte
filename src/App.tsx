@@ -4,6 +4,7 @@ function App() {
 
   return (
     <div>
+      <h1>Colins Website</h1>
     </div>
   )
 }
