@@ -5,7 +5,7 @@ function App() {
 
   return (
     <div>
-        <Header></Header>
+      <Header></Header>
       <div id="body" className='container mx-auto'>
         Just body text
       </div>

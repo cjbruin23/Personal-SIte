@@ -5,6 +5,9 @@ module.exports = {
     "./src/core/**/*.{vue,js,ts,jsx,tsx}"
   ],
   theme: {
+    fontFamily: {
+      'headerText': ['Chalkduster, fantasy']
+    },
     extend: {},
   },
   plugins: [],
