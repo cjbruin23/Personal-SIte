@@ -1,14 +1,13 @@
 import './App.css';
 import Header from '../header/header';
+import Body from '../body/body';
 
 function App() {
 
   return (
     <div>
       <Header></Header>
-      <div id="body" className='container mx-auto'>
-        Just body text
-      </div>
+      <Body></Body>
     </div>
   )
 }

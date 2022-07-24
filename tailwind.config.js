@@ -6,7 +6,7 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      'headerText': ['Chalkduster, fantasy']
+      'headerText': ['system-ui']
     },
     extend: {},
   },
