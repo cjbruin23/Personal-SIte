@@ -1,11 +1,31 @@
+import NavBarListItem, {NavBarListItemProps} from './nav-bar-list-item';
+
 function NavBar() {
+    const linkItems: NavBarListItemProps[] = [
+        {
+            linkText:'Home',
+            linkDestination: '#'
+        },
+        {
+            linkText:'Pages',
+            linkDestination: '#'
+        },
+        {
+            linkText:'Blog',
+            linkDestination: '#'
+        },
+        {
+            linkText:'Contacts',
+            linkDestination: '#'
+        },
+        
+    ]
     return (
         <div id="navbar-container" className="max-w-2xl m-auto">
             <ul className="flex flex-row">
-                <li className="grow"><a href="#">Home</a></li>
-                <li className="grow"><a href="#">Pages</a></li>
-                <li className="grow"><a href="#">Blog</a></li>
-                <li className="grow"><a href="#">Contact</a></li>
+                {linkItems.map((listItem: NavBarListItemProps, index: number) => (
+                    <NavBarListItem key={index} linkText={listItem.linkText} linkDestination={listItem.linkDestination}></NavBarListItem>
+                ))}
             </ul>
         </div>
     )
