@@ -8,14 +8,14 @@ function NavBar() {
     },
     {
       linkText: 'Pages',
-      linkDestination: '#',
+      linkDestination: 'pages',
     },
     {
       linkText: 'Blog',
       linkDestination: '#',
     },
     {
-      linkText: 'Contacts',
+      linkText: 'Contact',
       linkDestination: '#',
     },
   ];
