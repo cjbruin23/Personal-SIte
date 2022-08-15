@@ -10,6 +10,7 @@ interface PageLinkProps {
 function PageItemLink(props: PageLinkProps) {
   return (
     <div>
+      // Looks like I may need to use React Context API to pass information about what function to call
       <Link to={`../page/${props.routeLink.toString()}`}>
         <img src={props.imgSrc}></img>
         <span>{props.title}</span>
