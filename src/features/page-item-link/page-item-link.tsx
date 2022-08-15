@@ -5,7 +5,7 @@ interface PageLinkProps {
   imgSrc: string;
   description: string;
   routeLink: number;
-};
+}
 
 function PageItemLink(props: PageLinkProps) {
   return (
