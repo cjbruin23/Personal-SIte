@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-type PageLinkProps = {
+interface PageLinkProps {
   title: string;
   imgSrc: string;
   description: string;
