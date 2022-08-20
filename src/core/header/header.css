@@ -1,4 +1,7 @@
-#header-image {
-    width: 100vw;
-    height: 100vh;
+#header-container {
+  background-image: url('../../images/rockies.jpg');
+}
+
+#header-info {
+  transform: translate(-50%, -50%);
 }

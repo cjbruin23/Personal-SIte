@@ -1,11 +1,11 @@
-import { Fragment } from "react";
+import { Fragment } from 'react';
 
 function BlogHome() {
-    return (
-        <Fragment>
-            <div>Welcome to blog Home</div>
-        </Fragment>
-    )
+  return (
+    <Fragment>
+      <div>Welcome to blog Home</div>
+    </Fragment>
+  );
 }
 
-export default BlogHome;    
+export default BlogHome;
