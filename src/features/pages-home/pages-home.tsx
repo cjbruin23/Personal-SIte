@@ -4,7 +4,6 @@ import PageItemLink from '../page-item-link/page-item-link';
 function PagesHome() {
   return (
     <Fragment>
-      <div>Pages Home</div>
       <PageItemLink
         title='Instagram API'
         imgSrc='./'

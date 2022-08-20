@@ -7,7 +7,7 @@ export interface NavBarListItemProps {
 
 function NavBarListItem(props: NavBarListItemProps) {
   return (
-    <li className='grow text-center hover:font-bold'>
+    <li className='grow text-center hover:font-bold mr-8'>
       <Link to={props.linkDestination}>{props.linkText}</Link>
     </li>
   );
