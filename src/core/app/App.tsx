@@ -6,7 +6,7 @@ import BlogHome from '../../features/blog/blog-home';
 
 function App() {
   return (
-    <div>
+    <div id="app">
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/pages' element={<PagesHome />} />
