@@ -12,7 +12,7 @@ function NavBar() {
     },
     {
       linkText: 'Blog',
-      linkDestination: '#',
+      linkDestination: 'blog',
     },
     {
       linkText: 'Contact',
@@ -20,7 +20,7 @@ function NavBar() {
     },
   ];
   return (
-    <div id='navbar-container' className='max-w-2xl m-auto'>
+    <div id='navbar-container' className='max-w-3xl m-auto'>
       <ul className='flex flex-row'>
         {linkItems.map((listItem: NavBarListItemProps, index: number) => (
           <NavBarListItem
