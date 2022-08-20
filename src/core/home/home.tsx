@@ -1,5 +1,5 @@
 import BlogHome from '../../features/blog/blog-home';
-import PagesHome from '../../features/pages-home/pages-home';
+import PagesHome from '../../features/pages/pages-home/pages-home';
 import Body from '../body/body';
 import Header from '../header/header';
 

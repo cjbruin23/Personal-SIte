@@ -11,6 +11,10 @@ function PagesHome() {
         description='This is a test to see if we can bring in Instagram images through an API'
         routeLink={1}
       ></PageItemLink>
+      <PageItemLink title='Twitter API'
+        imgSrc='./'
+        description='This is a test to see if we can bring in tweets through an API'
+        routeLink={2}></PageItemLink>
     </Fragment>
   );
 }
