@@ -1,9 +1,8 @@
-import { Fragment } from 'react';
 import PageItemLink from '../page-item-link/page-item-link';
 
 function PagesHome() {
   return (
-    <Fragment>
+    <div id='pages'>
       <h1>My Pages</h1>
       <PageItemLink
         title='Instagram API'
@@ -11,7 +10,7 @@ function PagesHome() {
         description='This is a test to see if we can bring in Instagram images through an API'
         routeLink={1}
       ></PageItemLink>
-    </Fragment>
+    </div>
   );
 }
 

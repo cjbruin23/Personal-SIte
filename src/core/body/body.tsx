@@ -1,5 +1,22 @@
+import BlogHome from '../../features/blog/blog-home';
+import PagesHome from '../../features/pages-home/pages-home';
+
 function Body() {
-  return <div id='body' className='container mx-auto'></div>;
+  return (
+    <div id='body' className='container mx-auto flex-initial'>
+      <p className='text-2xl'>
+        <i>
+          A software engineer with passion for solving difficult problems in the web
+          application space. Have worked on large enterprise applications with a
+          variety of technologies not limited to: Angular, NodeJS, AWS, React,
+          Postgres, DynamoDB, C#, ASP.NET, SQL Server.
+        </i>
+      </p>
+
+      <PagesHome></PagesHome>
+      <BlogHome></BlogHome>
+    </div>
+  );
 }
 
 export default Body;
