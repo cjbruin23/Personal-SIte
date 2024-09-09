@@ -1,0 +1,6 @@
+.add-story-bttn {
+    padding: 2rem;
+    border: 1px solid black;
+    border-radius: 6px;
+    max-width: 10rem;
+}
